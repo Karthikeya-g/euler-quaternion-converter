@@ -1,0 +1,40 @@
+# --- Python Basics ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Important!) ---
+# Ignore the folder where you store your python libraries
+venv/
+env/
+.env
+.venv/
+.anaconda/
+
+# --- IDE & Editor Settings ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# --- Notebooks (Jupyter) ---
+# Checkpoints created when you edit notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- OS Generated Files ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac (in case a teammate uses Mac)
+.DS_Store
+
+# --- Project Specific ---
+# Ignore large output logs or temporary test artifacts if you create them
+outputs/
+logs/
