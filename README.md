@@ -86,7 +86,4 @@ Mathematically, this corresponds to the "North Pole" where the Gimbal axes for R
 2.  **Singularity Branch:** I explicitly check if the pitch is within `1e-6` of the pole.
       - If detected, I arbitrarily lock **Roll = 0**.
       - All rotation is then assigned to **Yaw** using the simplified linear mapping derived from the singularity state.
-
------
-
-```
+  
